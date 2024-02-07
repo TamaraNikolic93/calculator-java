@@ -1,1 +1,4 @@
-
+evaluateExpression metodu treba doraditi da ispiše poruku korisniku ukoliko se iskoriste nedozvoljeni karakteri za kalkulator i zamoli ga da unese validan opseg cifara/brojeva
+evaluateExpression metodu takođe treba doraditi ako se iskoriste dva računska operatora uzastopno bilo greškom ili namerno, kako bi ispisao poruku razumljivu korisniku da se ta greška ispravi i da se precizira na koju se računsku operaciju misli
+u metodi Calculate treba obraditi slučaj kada se umesto računskog izraza prosledi samo jedan broj ili cifra
+metoda Run ima prazan izraz pa to treba srediti da ne bi došlo do pozivanja evaluateExpression metode i greške
